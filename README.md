@@ -1,1 +1,3 @@
 # NWEA
+
+python flatten.py

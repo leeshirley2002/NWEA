@@ -1,3 +1,4 @@
+#recursive
 def flatten(arr):
 	res = []
 	for item in arr:
@@ -7,4 +8,6 @@ def flatten(arr):
 			res.extend(flatten(item))
 	return res
 
+#test
 print (flatten([1,[2,[4,5],6]]))
+print (flatten([]))
